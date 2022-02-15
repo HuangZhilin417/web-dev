@@ -1,0 +1,92 @@
+.wd-border-color { border-color: gray; }
+.wd-main-container {
+    width: 100%;
+    background-color: black;
+    padding: 16px;
+}
+.wd-border-radius {
+    border-radius: 10px;
+}
+.wd-border-bottom {
+    border-bottom-width: 1px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+}
+.wd-flex {
+    display: flex;
+}
+.wd-author {
+    font-size: 13px;
+    color: white;
+}
+.wd-padding-left{
+    padding-left: 16px;
+}
+.wd-padding-top {
+    padding-top: 12px;
+}
+
+.wd-title {
+    color: white;
+    font-size: 20px;
+}
+
+.wd-handle {
+    color: lightgray;
+    font-size: 13px;
+}
+
+.wd-border {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+
+}
+.wd-avatar {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-post-author {
+    font-size: 15px;
+    color: white;
+}
+.wd-post-handle {
+    color: lightgray;
+}
+
+.wd-main-post {
+    max-width: 506px;
+}
+.wd-space-even {
+    display: flex;
+    justify-content: space-between;
+    width: 504px;
+}
+.wd-image-post {
+    max-width: 504px;
+}
+.wd-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wd-heart-icon-color {
+    color: red;
+}
+.wd-icon-color {
+    color: lightgray;
+}
+.wd-icon-size {
+    font-size: 25px;
+}
+.wd-padding-left {
+    padding-left: 12px;
+}
+
+.wd-padding-bot {
+    padding-bottom: 12px;
+}
