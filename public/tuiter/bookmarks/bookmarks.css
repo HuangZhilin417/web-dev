@@ -1,6 +1,5 @@
 .wd-border-color { border-color: gray; }
 .wd-main-container {
-    width: 100%;
     background-color: black;
     padding: 16px;
 }
@@ -21,6 +20,9 @@
 }
 .wd-padding-left{
     padding-left: 16px;
+}
+.wd-padding-right {
+    padding-right: 16px;
 }
 .wd-padding-top {
     padding-top: 12px;
@@ -83,10 +85,10 @@
 .wd-icon-size {
     font-size: 25px;
 }
-.wd-padding-left {
-    padding-left: 12px;
-}
 
 .wd-padding-bot {
     padding-bottom: 12px;
+}
+.wd-fit-content {
+    max-width: fit-content;
 }

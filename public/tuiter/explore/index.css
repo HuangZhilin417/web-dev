@@ -1,6 +1,6 @@
-.border-one { border-width: 1px; }
-.border-solid { border-style: solid; }
-.border-white { border-color: gray; }
+.wd-border-one { border-width: 1px; }
+.wd-border-solid { border-style: solid; }
+.wd-border-white { border-color: gray; }
 
 .wd-gear-icon {
     padding-right: 12px;
@@ -21,49 +21,50 @@
 }
 .wd-space-even {
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: space-between;
 }
-.icon-blue {
+
+
+.wd-icon-blue {
     color: lightblue;
 }
-.topic {
+.wd-topic {
     font-size: 13px;
     color: rgb(110,118,125)
 }
-.display-flex {
+.wd-display-flex {
     display: flex;
 }
-.padding {
+.wd-padding {
     padding: 16px;
 }
-.padding-small {
+.wd-padding-small {
     padding: 10px;
 }
-.expand {
+.wd-expand {
     width: 100%;
 }
-.author {
+.wd-author {
     font-size: 13px;
     color: white;
 }
-.picture{
+.wd-picture{
     border-radius: 10px;
     float: right;
     width: 100px;
     height: 100px;
 }
 
-.two-padding {
+.wd-two-padding {
     padding-right: 16px;
     padding-left: 16px;
 }
-.background-color {background-color: black}
-.text-color {color: white;}
-.border-thin { border-width: 4px; }
-.border-solid { border-style: solid; }
-.border-color { border-color: rgb(29, 161, 242); }
-.search-input {
+.wd-background-color {background-color: black}
+.wd-text-color {color: white;}
+.wd-border-thin { border-width: 4px; }
+.wd-border-solid { border-style: solid; }
+.wd-border-color { border-color: rgb(29, 161, 242); }
+.wd-search-input {
     background-color: darkgray;
     color: white;
     float: left;
@@ -71,40 +72,40 @@
     border-radius: 20px;
 
 }
-.auto-height {
+.wd-auto-height {
     height: auto;
 }
-.border-style {
+.wd-border-style {
     border-bottom-width: 3px;
     border-color: rgb(29, 161, 242);
     border-bottom-style: solid;
 }
-.gear {
+.wd-gear {
     padding-right: 12px;
     float: right;
     color: black;
     height: 20px;
 }
-.highlighted-label {
+.wd-highlighted-label {
     color: rgb(29, 161, 242);
     font-size: 15px;
     float: left;
     width: 16%;
 }
-.main {
+.wd-main {
     float: left;
     width: 80%;
 }
-.secondary {
+.wd-secondary {
     width: 20%;
     padding-right: 16px;
 }
-.normal-label {
+.wd-normal-label {
     color: rgb(110, 118, 125);
     font-size: 15px;
     float: left;
     width: 16%;
 }
-.float-left {
+.wd-float-left {
     float: left
 }
