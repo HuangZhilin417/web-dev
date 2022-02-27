@@ -1,0 +1,66 @@
+.wd-max-content {
+    width: max-content;
+}
+.wd-avatar {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+.wd-70 {
+    flex: 70%;
+}
+.wd-10 {
+    flex: 10%;
+}
+.wd-20 {
+    flex: 20%;
+}
+.wd-display-flex {
+    display: flex;
+}
+.wd-picture{
+    border-radius: 10px;
+    float: right;
+    width: 10%;
+    height: 100px;
+    min-width: 100px;
+}
+.wd-main {
+    float: left;
+    width: 90%;
+}
+.wd-padding-right {
+    padding-right: 16px;
+}
+.wd-60{
+    flex: 60%
+}
+.wd-min-height {
+    min-height: 25px;
+}
+.wd-space-even {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wd-search-input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 50px;
+}
+.wd-rocket-img {
+    width: 100%;
+    height: auto;
+}
+.wd-container{
+    position: relative;
+    text-align: center;
+
+}
+.wd-bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 2px;
+    font-size: 30px;
+}
