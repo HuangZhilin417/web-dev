@@ -1,5 +1,5 @@
-alert('Hello World!');
-console.log('Hello World!');
+// alert('Hello World!');
+// console.log('Hello World!');
 
 console.log('Variables and Constants')
 var global1 = 10;
@@ -288,7 +288,8 @@ const init = () => {
     }
     hideBtn.click(hideHandler);
     showBtn.click(showHandler);
-
+    const alice = {  first: 'Alice',  last: 'Wonderland',  salary: 100000};
+    console.log(alice['salary'] = alice.salary + 10000)
 
 }
 $(init);

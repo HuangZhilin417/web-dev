@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+<h1>Tables</h1>
+
+<table border="1" width="100%">
+    <thead>
+        <tr>
+            <th>Quiz</th>
+            <th>Topic</th>
+            <th>Date</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Q1</td>
+            <td>HTML</td>
+            <td>2/3/21</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Q2</td>
+            <td>CSS</td>
+            <td>2/10/21</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Q3</td>
+            <td>JavaScript</td>
+            <td>2/17/21</td>
+            <td>95</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Average</td>
+            <td>90</td>
+        </tr>
+    </tfoot>
+</table>
+
+<h1>Radio Buttons</h1>
+<label for="Josh">
+    Josh?
+<input id="Josh" type="radio" name="josh"/>Yes
+</label>
+<br/>
+<label for="notJosh">
+    Josh?
+    <input id="notJosh" type="radio" name="josh"/>No
+</label>
+<br/>
+<label title="Are you Caleb Furnas, clearly you are not so don't click this" for="Furnas">
+    Furnas?
+    <input id="Furnas" type="radio"  name="furnas"/>Yes
+</label>
+<br/>
+<label for="notFurnas">
+    Furnas?
+    <input id="notFurnas" type="radio" name="furnas"/>No
+</label>
+<br/>
+<h1>Tell me your birthday</h1>
+<input type="date"  value="2020-02-24"/>
+<h2>Selecting shit, because apparently you need to make decisions in life</h2>
+Selecting if you like Marvel or DC more
+<select value="marvel" name="marvelOrDC">
+    <option value="marvel">Marvel</option>
+    <option value="DC">DC</option>
+</select>
+<h1>Using float to create vertical columns</h1>
+<div>
+    <style> textarea {color: blue}</style>
+    <div class="float-left dimension-portrait bg-color-yellow">Yellow</div>
+    <div class="float-left dimension-portrait bg-color-blue fg-color-white">Blue</div>
+    <div class="float-left dimension-portrait bg-color-red">Red</div>
+    <textarea class="dimension-portrait" style="color: black;float:left" placeholder="why? that is what you might ask yourself sometimes, good question, keep asking"></textarea>
+    <img class="float-right" src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg"/>
+    <div class="float-done"></div>
+</div>
+
+
+<h4 class="rew">Welcome to WebDev</h4>
+<p id="ewq" class="rew">
+    React.JS
+    <span id="rew">rocks!</span>
+</p>
+
+</body>
+</html>
