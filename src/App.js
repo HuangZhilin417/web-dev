@@ -12,7 +12,7 @@ import {BrowserRouter, Route, Routes}
 function App() {
   return (
       <BrowserRouter>
-          <div className="container">
+          <div className="container-fluid">
               <Routes>
                   <Route path="/hello"
                          exact={true}

@@ -1,30 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 const NavigationSidebar = ({active = 'explore'}) => {
     const ewq = [28,107,26,65,95]
-    const GBAXF = () => {
-        const [xiv, setXiv] = useState({gcliad: 5});
-        return (
-            <div>
-                <button
-                    onClick={
-                        () => setXiv({
-                            ...xiv,
-                            gcliad: xiv.gcliad + 5
-                        })}>
-                    Fup
-                </button>
-                <h1>{xiv.gcliad}</h1>
-                <button
-                    onClick={
-                        () => setXiv({
-                            ...xiv,
-                            gcliad: xiv.gcliad - 4
-                        })}>
-                    Qdewaesf
-                </button>
-            </div>
-        )
-    }
+
 
     return(<>
             <div className="list-group">

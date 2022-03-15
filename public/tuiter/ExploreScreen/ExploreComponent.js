@@ -2,11 +2,12 @@ import PostSummaryList from "../PostSummaryList/index.js";
 
 const ExploreComponent = () => {
     return(`
-           <div class="row">
+           <div class="row" xmlns="http://www.w3.org/1999/html">
                      <div class="wd-min-height wd-space-even">
                     <i class="fas fa-search position-absolute p-3"></i>
-                    <input placeholder="Search Tuiter" class="wd-search-input" type="text">
+                    <input placeholder="Search Tuiter" class="wd-search-input" type="text"/>
                     <i class="fas fa-cog wd-icon-blue wd-icon-size ps-3" ></i>
+                  
                 </div>      
            </div>
            <ul class="nav mb-2 nav-tabs">

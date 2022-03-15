@@ -1,34 +1,36 @@
-const PostSummaryItem = ({post = {"topic": "web Development", "userName": "ReactJS",
-    "time": "2h",
-    "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207"
-}}) => {
-    return (`<li class="list-group-item">
-                <div class="wd-display-flex">
-                    <div class="wd-main wd-padding-right">
-                     ${post.topic ?
-                        (`<text className="wd-topic">
-                            ${post.topic}
-                        </text>
-                        </br>`)
+import React from "react";
+import styles from "./styles"
+
+const PostSummaryItem = ({post}) => {
+    return (<li className="list-group-item">
+                <div style={styles.wdDisplayFlex}>
+                    <div style={{...styles.wdMain, ...styles.wdPaddingRight}}>
+                     {post.topic ?
+                        (<div>
+                                <text style={styles.wdTopic}>
+                                    {post.topic}
+                                </text>
+                        </div>)
                         : (``)}
                         
-                        
-                        <text class="wd-text-color">${post.userName} <i class="fas fa-check-circle"></i></text>
-                        <text class="wd-topic">-${post.time} </text>
-                        </br>
-                        ${post.title ?
-                        (`<text class="wd-text-color">${post.title}</text>
-                                        </br>`)
-                        : (``)}
+                        <div>
+                            <text style={styles.wdTextColor}>{post.userName} <i className="fas fa-check-circle"/></text>
+                            <text style={styles.wdTopic}>-{post.time} </text>
+                        </div>
+
+
+                        {post.title ?
+                        (<div><text style={styles.wdTextColor}>{post.title}</text></div>
+                        )
+                        : ('')}
                         
                  
-                        ${post.tweets ?
-                        (`<text class="wd-topic">${post.tweets} Tweets</text>`)
-                        : (``)}
+                        {post.tweets ?
+                            (<div><text style={styles.wdTopic}>{post.tweets} Tweets</text></div>)
+                        : ('')}
                     </div>
-                    <img class="wd-picture" src=${post.image} />
+                    <img style={styles.wdPicture} src={post.image} />
                 </div>
-            </li>`)
+            </li>)
 }
 export default PostSummaryItem;

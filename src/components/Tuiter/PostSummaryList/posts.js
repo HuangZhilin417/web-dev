@@ -1,5 +1,0 @@
-export default [
-    {   topic: 'Web Development', userName: 'ReactJS', time: '2h', title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207'},
-    {   topic: '', userName: 'JavaScript', time: '1 day', title: 'JavaScript is programming language that can run on browsers as well as desktops', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433', tweets: '123K', },
-    {   topic: 'Web Development', userName: '', title: 'jQuery', time: 'last week', image: 'https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png', tweets: '122K', },
-    {   topic: 'Web Development', userName: 'NodeJS', title: '', time: 'last month', image: 'https://media.istockphoto.com/vectors/nodejs-vector-logo-backend-programming-in-javascript-server-vector-id1195857274?s=612x612', tweets: '120K', }, ];
