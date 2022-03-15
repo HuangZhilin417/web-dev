@@ -4,9 +4,7 @@ import WhoToFollowList from "./WhoToFollowList";
 import ExploreComponent from "./ExploreComponent";
 import styles from "./styles"
 
-// <div className="wd-display-flex">
 
-// </div>
 
 const Tuiter = () => {
     return(
