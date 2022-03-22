@@ -4,7 +4,7 @@ const WhoToFollowListItem = ({who}) =>{
         return(
         <li className={"list-group-item"} style={styles.wdDisplayFlex}>
             <div style={styles.wd10}>
-                <img alt="image" style={styles.wdAvatar} src={who.avatarIcon} />
+                <img  style={styles.wdAvatar} src={who.avatarIcon} alt="image"/>
             </div>
             <div style={styles.wd70}>
                     {who.userName}
