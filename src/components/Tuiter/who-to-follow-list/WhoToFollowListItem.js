@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./styles"
+import styles from "../WhoToFollowList/styles"
 const WhoToFollowListItem = ({who}) =>{
         return(
         <li className={"list-group-item"} style={styles.wdDisplayFlex}>
             <div style={styles.wd10}>
-                <img style={styles.wdAvatar} src={who.avatarIcon}  />
+                <img style={styles.wdAvatar} src={who.avatarIcon} alt="" />
             </div>
             <div style={styles.wd70}>
                     {who.userName}
