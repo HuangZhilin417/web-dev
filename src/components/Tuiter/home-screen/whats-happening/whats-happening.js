@@ -1,16 +1,15 @@
 import React, {useState} from "react";
 import styles from "./styles";
+import {createTuit} from "../../actions/tuits-actions";
 import {useDispatch}
     from "react-redux";
 const WhatsHappening = () => {
-    let [whatsHappening, setWhatsHappening]
-        = useState('');
+    const [newTuit, setNewTuit]
+        = useState({tuit: 'New tuit'});
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
-        dispatch({type: 'create-tuit',
-            tuit: whatsHappening
-        });
-    }
+        console.log(newTuit)
+        createTuit(dispatch, newTuit)}
     return (
         <div className="container-flow" style={styles.wdPaddingBottom}>
             <div style={styles.wdDisplayFlex}>
@@ -19,10 +18,8 @@ const WhatsHappening = () => {
             </div>
 
             <div style={styles.wd90}>
-                <textarea className="form-control bg-transparent text-white" id="exampleFormControlTextarea1" rows="3" value={whatsHappening}
-                    onChange={(event) =>
-                        setWhatsHappening(event.target.value)}>
-                </textarea>
+                <textarea className="form-control bg-transparent text-white" id="exampleFormControlTextarea1" rows="3" value={newTuit.tuit}
+                    onChange={(event) => setNewTuit({tuit: event.target.value})}/>
             <div>
                 <i className="far fa-image" style={styles.wdPaddingRight}></i>
                 <i className="fas fa-chart-line" style={styles.wdPaddingRight}></i>
