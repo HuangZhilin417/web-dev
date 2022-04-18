@@ -12,7 +12,7 @@ const TuitStats = ({tuit}) => {
     const dislikeTuit = () => {
         updateTuit(dispatch, {
             ...tuit,
-            dislike: tuit.dislike + 1
+            dislike: tuit.dislikes + 1
         })};
     return (
         <div style={styles.wdDisplayEven}>
@@ -30,9 +30,9 @@ const TuitStats = ({tuit}) => {
                 {tuit.likes !== 0 && tuit.likes}
             </span>
             <span onClick={dislikeTuit}>
-                {(tuit.dislike !== 0 && tuit.dislike) && <i className="fas fa-thumbs-down" style={{color: 'gray'}}></i>}
-                {!tuit.dislike && <i className="far fa-thumbs-down me-1"></i>}
-                {tuit.dislike !== 0 && tuit.dislike}
+                {(tuit.dislikes !== 0 && tuit.dislikes) && <i className="fas fa-thumbs-down" style={{color: 'gray'}}></i>}
+                {!tuit.dislikes && <i className="far fa-thumbs-down me-1"></i>}
+                {tuit.dislikes !== 0 && tuit.dislikes}
             </span>
             <i className="fa fa-share"/>
         </div>

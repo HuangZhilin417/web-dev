@@ -5,7 +5,7 @@ import {useDispatch}
     from "react-redux";
 const WhatsHappening = () => {
     const [newTuit, setNewTuit]
-        = useState({tuit: 'New tuit'});
+        = useState({tuit: 'New tuit', likes: 0, dislikes: 0, postedBy: { username: 'Josh'}});
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
         console.log(newTuit)
